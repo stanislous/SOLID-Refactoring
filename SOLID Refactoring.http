@@ -1,0 +1,6 @@
+@SOLID_Refactoring_HostAddress = http://localhost:5086
+
+GET {{SOLID_Refactoring_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
