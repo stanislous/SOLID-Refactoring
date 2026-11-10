@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.37314.3 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID Refactoring", "SOLID Refactoring.csproj", "{9B8EFDA0-39AB-4F86-B565-B5624AE49224}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "..\TestProject1\TestProject1.csproj", "{76DB2D76-333A-4BDD-A3F1-FDD7B1602E46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9B8EFDA0-39AB-4F86-B565-B5624AE49224}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B8EFDA0-39AB-4F86-B565-B5624AE49224}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B8EFDA0-39AB-4F86-B565-B5624AE49224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76DB2D76-333A-4BDD-A3F1-FDD7B1602E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76DB2D76-333A-4BDD-A3F1-FDD7B1602E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76DB2D76-333A-4BDD-A3F1-FDD7B1602E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76DB2D76-333A-4BDD-A3F1-FDD7B1602E46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

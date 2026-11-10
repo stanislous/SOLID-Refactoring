@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using SOLID_Refactoring.OrderService;
 
 namespace SOLID_Refactoring.Controllers
 {
@@ -8,8 +7,8 @@ namespace SOLID_Refactoring.Controllers
     [ApiController]
     public class OrdersController : ControllerBase
     {
-        public OrderService.OrderService _orderService;
-        public OrdersController(OrderService.OrderService orderService)
+        public Services.OrderService _orderService;
+        public OrdersController(Services.OrderService orderService)
         {
             _orderService = orderService;
         }
